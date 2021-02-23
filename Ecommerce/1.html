@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Add Products</h3>
+    <form method="post">
+        <table>
+            <tr>
+                <td>
+                    Product Id:
+                </td>
+                <td>
+                    <input type="text" name="prid" class="form-control" placeholder="Product Id" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Product Name:
+                </td>
+                <td>
+                    <input type="text" name="prname" class="form-control"  placeholder="Product Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Description:
+                </td>
+                <td>
+                    <textarea name="prdes"></textarea>
+                    <!-- <input type="Description" name="prdes" class="form-control"  placeholder="" required> -->
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Upload an image file:
+                </td>
+                <td>
+                    <input type="file" name="primage" class="form-control"  placeholder="" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Product Price:
+                </td>
+                <td>
+                    <input type="text" name="prprice" class="form-control"  placeholder="Price" required>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
